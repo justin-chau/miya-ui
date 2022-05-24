@@ -7,22 +7,23 @@ export interface ButtonProps {
 }
 
 const StyledButton = styled("button", {
-  bg: "$primary",
+  bg: "$backgroundElement",
   borderRadius: "$m",
   px: "$m",
   py: "$xs",
   fontSize: "$m",
-  fontWeight: "$heavy",
+  fontWeight: "$normal",
   borderStyle: "none",
-  color: "$primaryText",
+  color: "$textWhite",
   "&:hover": {
-    bg: "$primaryHover",
+    bg: "$backgroundElementHovered",
+    borderColor: "$borderElementHovered",
   },
   "&:active": {
-    bg: "$primaryActive",
+    bg: "$backgroundElementActive",
   },
   "&:focus": {
-    boxShadow: "$primaryFocused",
+    boxShadow: "$focused",
   },
 });
 
