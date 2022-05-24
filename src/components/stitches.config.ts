@@ -14,8 +14,8 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      backgroundSurface: sage.sage1,
-      background: sage.sage2,
+      backgroundSurface: sage.sage2,
+      background: sage.sage1,
       backgroundElement: sage.sage12,
       backgroundElementHovered: sage.sage11,
       backgroundElementActive: sage.sage10,
@@ -41,6 +41,7 @@ export const {
       xl: "128px",
     },
     borderWidths: {
+      s: "1px",
       m: "3px",
     },
     shadows: {
